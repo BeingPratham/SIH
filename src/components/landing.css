@@ -1,0 +1,138 @@
+.navbar{
+    height: 94px;
+    margin: 0;
+    margin-top: -19px;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.Title{
+    flex-grow: 6;
+   
+    font-size: 40px;
+    margin-top: 0;
+}
+.title{
+    margin-block-start: 18px;
+    font-size: 49px;
+    margin-left: 114px;
+}
+.search-container {
+    float: right;
+}
+.Container p{
+    padding-top: 10px;
+}
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 44px;
+    font-size: 17px;
+    border: 1px solid;
+}
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 44px;
+    margin-right: 63px;
+    background: #ddd;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background: #ccc;
+}
+.Bodyy{
+    /* background-color: aqua; */
+    /* height: 100vh; */
+}
+.main-body{
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 150px;
+    /* border: 1px solid black; */
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.features{
+    display: flex;
+}
+.add-students{
+    flex-grow: 5;
+    margin-left: 50px;
+}
+.add-students button{
+    /* border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px; */
+    background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(18, 98, 152, 0.881) 0 -25px 18px -14px inset,rgba(18, 48, 148, 0.53) 0 1px 2px,rgba(19, 43, 151, 0.15) 0 2px 4px,rgba(17, 67, 149, 0.231) 0 4px 8px,rgba(19, 70, 152, 0.15) 0 8px 16px,rgba(16, 70, 151, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.add-students button:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.filter{
+    margin-right: 50px;
+}
+.Container{
+    padding-left: 20PX;
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Sr_No{
+    /* flex-grow: 1; */
+    width: 50px;
+    
+    
+}
+.Name{
+    /* flex-grow: 3; */
+    width: 50%;
+    
+}
+.Class{
+    /* flex-grow: 1; */
+    width: 20%;
+    
+}
+.Year{
+    flex-grow: 1;
+   
+}
+.MyLink{
+    margin-left: 10px;
+}
+.MyLink:hover{
+    color: grey;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+.MyLink :active{
+    color: grey;
+}
